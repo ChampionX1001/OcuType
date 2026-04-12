@@ -62,5 +62,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.8.0") // Use the latest version
+    implementation(libs.kotlinx.coroutines.guava) // Use the latest version
 }
